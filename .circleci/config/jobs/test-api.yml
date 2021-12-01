@@ -1,0 +1,13 @@
+executor: go-machine-medium
+steps:
+- checkout
+- install-go
+- run:
+    name: "Run API Tests"
+    no_output_timeout: 15m
+    command: |
+      make test-api
+- slack/status:
+    fail_only: true
+    only_for_branches: master
+    webhook: webhook
