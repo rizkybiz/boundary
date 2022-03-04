@@ -101,6 +101,43 @@
         "path": "concepts"
       },
       {
+        "title": "Architecture",
+        "routes": [
+          {
+            "title": "Overview",
+            "path": "concepts/architecture"
+          },
+          {
+            "title": "Controllers",
+            "path": "concepts/architecture/controllers"
+          },
+          {
+            "title": "Workers",
+            "path": "concepts/architecture/workers"
+          },
+          {
+            "title": "Targets",
+            "path": "concepts/architecture/targets"
+          },
+          {
+            "title": "RDBMS",
+            "path": "concepts/architecture/relational-database"
+          },
+          {
+            "title": "Key Management System",
+            "path": "concepts/architecture/key-management-system"
+          },
+          {
+            "title": "Identity Providers",
+            "path": "concepts/architecture/identity-providers"
+          },
+          {
+            "title": "Infrastructure",
+            "path": "concepts/architecture/infrastructure"
+          }
+        ]
+      },
+      {
         "title": "Security",
         "routes": [
           {
